@@ -1,0 +1,23 @@
+{
+  "name": "smart-brain-api",
+  "version": "1.0.0",
+  "description": "Server for smart-brain project",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "clarifai-nodejs-grpc": "^11.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "knex": "^3.1.0",
+    "pg": "^8.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
